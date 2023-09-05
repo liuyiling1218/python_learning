@@ -7,7 +7,7 @@ def collatz(number: int):
     return result
 
 
-def main():
+def foo():
     try:
         number = int(input("Enter number:"))
         while True:
@@ -18,4 +18,4 @@ def main():
 
 
 if __name__ == '__main__':
-    main()
+    foo()
