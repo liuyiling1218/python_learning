@@ -17,5 +17,4 @@ def foo():
         print("输入错误，请输入一个整数。")
 
 
-if __name__ == '__main__':
-    foo()
+print(foo())
