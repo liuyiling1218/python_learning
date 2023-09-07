@@ -9,7 +9,7 @@ def collatz(number: int):
 
 def foo():
     try:
-        number = int(input("Enter number:"))
+        number = int((input("Enter number:")))
         while True:
             if number != 1:
                 number = collatz(number)
@@ -17,4 +17,6 @@ def foo():
         print("输入错误，请输入一个整数。")
 
 
-print(foo())
+if __name__ == '__main__':
+    foo()
+
