@@ -1,3 +1,4 @@
+# 第二题
 def displayInventory(inventory):
     count = 0
     print("Inventory:")
@@ -9,9 +10,9 @@ def displayInventory(inventory):
 
 stuff = {'rope': 1, 'torch': 6, 'gold coin': 42, 'dagger': 1, 'arrow': 12}
 displayInventory(stuff)
+
+
 # 第三题
-
-
 def addToInventory(inventory, addedItems):
     for i in addedItems:
         if i in inventory:
