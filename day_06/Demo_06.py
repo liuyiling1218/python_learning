@@ -5,5 +5,5 @@ class my_class():
     def get_area(self):
         return self.r*100
 pass
-dir = my_class(6)
+dir = my_class(5)
 print(dir.get_area())
